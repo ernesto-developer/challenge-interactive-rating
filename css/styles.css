@@ -1,0 +1,94 @@
+body{
+    background-color: #141519;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+h3{
+    color: rgba(161, 158, 158, 0.99);
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+
+.ratingCard{
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 327px;
+    height: 354px;
+    background-color: grey;
+    border-radius: 28px;
+    background-color: #1F2630;
+}
+
+
+.ratingCard__optRating{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.ratingCard__optRating__imgStar{
+    width: 40px;
+    height: 40px;
+    background: #303844;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.ratingCard__optRating__imgStar img{
+    width: 18px;
+    height: 18px;
+    align-self: center;
+}
+
+.ratingCard__optRating__ratingBox{
+    display: flex;
+    justify-content: space-between;
+}
+.ratingCard__optRating__ratingBox div{
+    width: 40px;
+    height: 40px;
+    background: #303844;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgba(161, 158, 158, 0.99);
+}
+.ratingCard__optRating__ratingBox div span{
+    align-self: center;
+}
+
+.rating__optRating--btn{
+    border: none;
+    height: 44px;
+    border-radius: 29px;
+    background-color: #FC7614;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+
+
+.ratingCard__msjGratitude{
+    display: none;
+}
+
+
+
+
+footer{
+    position: absolute;
+    top: 96%;
+}
