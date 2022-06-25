@@ -16,8 +16,6 @@ h3{
     letter-spacing: 1px;
     line-height: 20px;
 }
-
-
 .ratingCard{
     padding: 2rem;
     position: absolute;
@@ -58,7 +56,7 @@ h3{
     display: flex;
     justify-content: space-between;
 }
-.ratingCard__optRating__ratingBox div{
+.optBtn{
     width: 47px;
     height: 47px;
     background-color: #303844;
@@ -68,18 +66,15 @@ h3{
     color: rgba(161, 158, 158, 0.99);
     cursor: pointer;
 }
-.ratingCard__optRating__ratingBox div:hover{
+.optBtn:hover{
     background-color: rgba(133, 128, 128, 0.99);
     color: #fff;
-}
-.selected{
-    background-color: #FC7614;
 }
 .ratingCard__optRating__ratingBox div span{
     align-self: center;
 }
 
-.rating__optRating--btn{
+.rating__optRating--submitBtn{
     border: none;
     height: 44px;
     border-radius: 29px;
@@ -87,9 +82,12 @@ h3{
     font-size: 17px;
     letter-spacing: 2px;
     color: #fff;
+    cursor: pointer;
 }
-
-
+.rating__optRating--submitBtn:hover{
+    background-color: #fff;
+    color: #FC7614;
+}
 
 /*###################################  msjGratitutde #####################*/
 
@@ -103,9 +101,6 @@ h3{
     text-align: center;
     display: none;
 }
-.ratingCard__msjGratitude--img{
-
-}
 .ratingCard__msjGratitude--userFeddBack{
     width: 200px;
     height: 27px;
@@ -118,32 +113,26 @@ h3{
     vertical-align: -webkit-baseline-middle;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     position: absolute;
     top: 96%;
     color: #fff;
-
+    
 }
 footer a{
     color: #FC7614;
+}
+
+
+
+.selected {
+    background-color: #FC7614 !important;
+    color: #fff;
+}
+
+.active{
+    display: flex;
+}
+.deactivate{
+    display: none;
 }
