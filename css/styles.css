@@ -115,7 +115,7 @@ h3{
 }
 footer{
     position: absolute;
-    top: 96%;
+    top: 95%;
     color: #fff;
     
 }
@@ -135,4 +135,20 @@ footer a{
 }
 .deactivate{
     display: none;
+}
+
+/* Media Queryes */
+
+@media (max-width: 500px){
+    .ratingCard{
+        width: 70%;
+    }
+    footer{
+        position: absolute;
+        top: 95%;
+        color: #fff;
+        width: 53%;
+        text-align: center;
+        line-height: 20px;
+    }
 }
